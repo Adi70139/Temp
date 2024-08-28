@@ -26,7 +26,7 @@ const Login = () => {
               className='rounded border border-gray-500 h-12 flex justify-center items-center gap-2.5 mb-12 cursor-pointer'
             >
               <img src="https://static.vecteezy.com/system/resources/previews/013/760/951/non_2x/colourful-google-logo-in-dark-background-free-vector.jpg" alt="" className='bg-black rounded-full h-5 mt-0.5'/>
-              <Link to="https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=http://localhost:5173/home" className='text-sm text-gray-400 cursor-pointer' onClick={handleclick}>
+              <Link to="https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://one-box-reactinbox.vercel.app/home" className='text-sm text-gray-400 cursor-pointer' onClick={handleclick}>
                 Sign Up with Google
               </Link>
 
